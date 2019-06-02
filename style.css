@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+	border: 0;
+	font-family: "Alfa Slab One";
+	font-size: 1.25rem;
+}
+nav {
+	display: flex;
+	justify-content: center;
+	height: 8vh;
+	background-color: rgb(192, 192, 192);
+	font-family: "Russo One";
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	align-items: center;
+}
+
+nav ul li a {
+	font-size: 2rem;
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #F10031;
+	text-decoration: underline;
+}
+
+nav ul li a img {
+	height: 7vh;
+}
+
+#intro {
+	display: flex;
+	justify-content: center;
+	background-image: url(img/seats.jpg); /*Photo Credit: Rick Barrett, found at https://unsplash.com/photos/MOnU_o4DMQw */
+	height: 92vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.slogan {
+	font-family: "Alfa Slab One";
+	padding-top: 12%;
+	text-align: center;
+	color: white;
+    text-shadow: 3px 3px #ff0000;
+    text-transform: uppercase;
+}
+
+.bang {
+	font-size: 2.5rem;
+}
+
+.spacer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 10vh;
+	width: 100%;
+	background-color: rgb(192, 192, 192);
+}
+
+.spacer h2 {
+	display: flex;
+	font-family: "Russo One";
+	font-size: 2.5rem;
+	color: white;
+	text-shadow: 2px 2px red;
+}
+
+.spacer h3 {
+	font-size: 1rem;
+	color: white;
+	font-family: "Russo One";
+	width: 66.6%;
+}
+
+#sroi {
+	display: flex;
+	justify-content: space-around;
+	font-size: 1.8rem;
+	background-image: url(img/SponsorshipROI.jpg);  /*Photo Credit: Austin Chan, found at https://unsplash.com/photos/ukzHlkoz1IE */
+	height: 90vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	color: white;
+    text-shadow: 2px 2px #ff0000;
+    text-transform: uppercase;
+}
+
+.quote {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	width: 50vw;
+	text-align: center;
+}
+
+.mid-col {
+	color: black;
+}
+
+#sb2b {
+	display: flex;
+	font-size: 12rem;
+	background-image: url(img/pexels-photo-327540.jpeg); /*Photo Credit: TeroVesalainen, https://static.pexels.com/photos/327540/pexels-photo-327540.jpeg */
+	height: 90vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	color: black;
+    text-shadow: 2px 2px white;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.filter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	height: 90vh;
+	width: 100%;
+	background: rgba(0, 0, 0, .6);
+}
+
+.value {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.value h3 {
+	color: #F10031;
+	font-size: 2rem;
+}
+
+.value p {
+	width: 70%;
+	font-family: "Russo One";
+	color: white;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+	font-size: 1.3rem;
+	line-height: 2rem;
+}
+
+#about {
+	display: flex;
+	background-color: black;
+	height: 20vh;
+	color: white;
+}
+
+#about img {
+	height: 20vh;
+}
+
+.profile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.profile p {
+	font-size: .8rem;
+	font-family: "Russo One";
+	line-height: 20px;
+}
+
+.social a i {
+	font-size: 2.5rem;
+	color: white;
+	padding: .5rem;
+}
